@@ -1,7 +1,7 @@
-function raiz = secante(f,x0,tol)
+function raiz = secante(g,x0,tol)
 k=0;
 h=0.0000001;
-x1=f(x0,h);
+x1=g(x0,h);
 while abs(x1-x0)>=tol
   k+=1;
   x0=x1;
