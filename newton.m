@@ -8,3 +8,5 @@ while abs(x1-x0)>=tol
 endwhile
 raiz=x1
 endfunction
+
+g=@(x) x-f(x)/derivada
